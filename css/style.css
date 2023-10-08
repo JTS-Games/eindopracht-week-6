@@ -1,0 +1,506 @@
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 1vh 10vw 1vh 10vw;
+    background-image: linear-gradient(90deg, #70C4FFFF 0%, #FFA5F3FF 100%);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.3rem;
+}
+
+nav img {
+    width: 90px;
+    height: auto;
+}
+
+.navLeft {
+    display: flex;
+    gap: 0.5vw;
+    padding: 0vh 1vw 0vh 1vw;
+    align-items: center;
+}
+
+.navRight {
+    display: flex;
+    gap: 3vw;
+    padding: 0vh 1vw 0vh 1vw;
+    align-items: center;
+}
+
+.navRight p:hover {
+    cursor: pointer;
+}
+
+
+.navMostRight {
+    text-align: center;
+    padding: 2vh 2vw 2vh 2vw;
+    background: rgba(255, 255, 255, 0.38);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    border: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+.navRight a{
+    color: white;
+    text-decoration: none;
+}
+
+.navRight a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.navMostRight a{
+    color: darkslategray;
+    text-decoration: none;
+}
+
+.navMostRight a:visited{
+    color: darkslategray;
+    text-decoration: none;
+}
+
+.navMostRight:hover {
+    cursor: pointer;
+}
+
+.navMostRight:active {
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.3);
+}
+
+.headLine {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../images/quest3.webp);
+    background-position: center top;
+    row-gap:10vh;
+    color: rgb(0, 0, 0);
+    padding-bottom: 10vh;
+    background-repeat: no-repeat;
+}
+
+.headlineText {
+    letter-spacing: 1vw;
+    font-size: 7.5rem;
+}
+
+.headLineDescription {
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    margin: 40vh 20vw 0vh 20vw;
+    padding: 4vh 6vw 4vh 6vw;
+    background: rgba(255, 255, 255, 0.38);
+    border-radius: 32px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    border: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+.links {
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+}
+
+.linksBackground1 {
+    font-size: 1.3rem;
+    padding: 1vh 0vw 1vh 0vw;
+    width: 20vw;
+    background: rgba(255, 255, 255, 0.38);
+    border-radius: 32px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    border: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+.linksBackground1:hover {
+    cursor: pointer;
+}
+
+.linksBackground1:active {
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.3);
+}
+
+.linksBackground2 {
+    font-size: 1.3rem;
+    color:white;
+    padding: 1vh 0vw 1vh 0vw;
+    width: 20vw;
+    background-image: linear-gradient(90deg, #70C4FFFF 0%, #FFA5F3FF 100%);
+    border-radius: 32px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    border: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+.linksBackground2:hover {
+    cursor: pointer;
+}
+
+.linksBackground2:active {
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.3);
+}
+
+.subHeadingSection {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vh;
+}
+
+.featuresHeading {
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    margin: 0vh 0vw 5vh 0vw;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(90deg, #70C4FFFF 0%, #FFA5F3FF 100%);
+    border-radius: 32px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(9.1px);
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    width: 25vw;
+    height: auto;
+    min-height: 60vh;
+}
+
+.featureImage1, .featureImage2, .featureImage3{
+    width: 100%;
+    height: 25vh
+}
+
+.featureImage1 img {
+    position: center top;
+    object-fit: none;
+    zoom: 40%;
+    width: 100%;
+    height: 100%;
+    border-radius: 72px;
+}
+
+.featureImage2 img {
+    position: center top;
+    object-fit: none;
+    zoom: 175%;
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+
+.featureImage3 img {
+    position: center top;
+    object-fit: none;
+    zoom: 40%;
+    width: 100%;
+    height: 100%;
+    border-radius: 72px;
+}
+
+.featureHeadline{
+    margin: 0vh 2vw 0vh 2vw;
+    color: white;
+    font-size: 1.5rem   ;
+}
+
+.featureButton {
+    width: 60%;
+    margin: auto 0vw 3vh 5%;
+    text-align: center;
+    font-size: 1.3rem;
+    color: darkslategray;
+    padding: 0.7vh 0.7vw 0.7vh 0.7vw;
+    background: rgba(255, 255, 255, 0.38);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    border: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+.featureButton:hover {
+    cursor: pointer;
+}
+
+.featureButton:active {
+    color: white;
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.3);
+}
+
+.formSection {
+    padding: 7vh 0vw 10vh 0vw;
+    background-color: rgb(237, 233, 255);
+}
+
+.formHeading {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+}
+
+form {
+    font-size: 1.3rem;
+    margin: 0vh 20vw 0vh 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+form p {
+    margin-bottom: 4px  ;
+}
+
+.formNameSection {
+    display: flex;
+    gap: 3vw;
+}
+.formNameSection input{
+    width: 25vw;
+}
+
+.formEmailSection{
+    display: flex;
+    flex-direction: column;
+}
+
+.formEmailSection input{
+    width: 55vw
+}
+
+select {
+    width: 57.5vw;
+}
+
+input, select {
+    padding: 2vh 1vw 2vh 1vw;
+    background: rgba(255, 255, 255, 0.38);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    border: 2px solid rgba(0, 0, 0, 0.45);
+}
+
+.checkBoxSection {
+    display: flex;
+    gap: 0.5vw;
+}
+
+.checkBoxSection input {
+    vertical-align: -130%;
+}
+
+.submitButton {
+    margin-top: 3vh;
+    color: white;
+    padding: 0vh 0.7vw 2vh 0.7vw;
+    background-image: linear-gradient(90deg, #70C4FFFF 0%, #FFA5F3FF 100%);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    width: 14vw;
+    text-align: center;
+}
+
+.submitButton:hover {
+    cursor: pointer;
+}
+
+.submitButton:active {
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.8);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    padding: 7vh 10vw 7vh 10vw;
+    background-color: rgb(49, 43, 65);
+    color: gainsboro;
+}
+
+.footerImage{
+    width: 90px;
+    height: auto;
+}
+
+.footerBottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials {
+    display: flex;
+    gap: 1vw;
+}
+
+.socials img:hover {
+    cursor: pointer;
+}
+
+.footerRight {
+    display: flex;
+    gap: 1vw
+}
+
+.footerRight p:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    nav{
+        flex-direction: column;
+        padding-bottom: 3vh;
+    }
+    .navLeft{
+        justify-content: center;
+        gap: 5vw;
+    }
+    .navRight{
+        flex-direction: column;
+    }
+    .navMostRight{
+        width: 90%;
+    }
+    .headLine {
+        row-gap:5vh;
+    }
+    .headLine h1 {
+        font-size: 5rem;
+    }
+    .headLineDescription{
+        margin: 0vh 10vw 0vh 10vw;
+        font-size: 1rem;
+        padding: 0vh 1vw 0vh 1vw;
+    }
+    .links {
+        flex-direction: column;
+        margin: 0vh 10vw 0vh 10vw;
+    }
+    .features {
+        flex-direction: column;
+        gap: 10vh;
+    }
+    .featuresHeading{
+       font-size: 3rem;
+    }
+    .feature {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .featureHeadline {
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+    .formNameSection {
+        flex-direction: column;
+    }
+    form {
+        margin: 0vh 5vw 0vh 5vw;
+    }
+    .formHeading{
+        font-size: 2rem;
+    }
+    .mobileWide{
+        padding-left: 4vw;
+        padding-right: 56vw;
+    }
+    .mobileWide2{
+        padding-left: 4vw;
+        padding-right: 26vw;
+    }
+    .submitButton{
+        width: 50vw;
+    }
+    .footerBottom{
+        flex-direction: column;
+    }
+    .footerRight{
+        flex-direction: column;
+        margin-top: 3vh;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    main {
+        background-color: rgb(30, 30, 30);
+    }
+    nav {
+        background-image: linear-gradient(90deg, hsl(205, 100%, 22%) 0%, hsl(308, 100%, 32%) 100%);
+    }
+    .navMostRight {
+        background: rgba(0, 0, 0, 0.3);
+        border-style: none;
+    }
+    .navMostRight a{
+        color: white;
+    }
+    .navMostRight a:visited{
+        color: white;
+    }
+    .headLine {
+        filter:brightness(90%);
+    }
+    .headLineDescription {
+        background-color:rgba(0, 0, 0, 0.2);
+        color: white;
+    }
+    .feature {
+        background-image: linear-gradient(90deg, hsl(205, 100%, 22%) 0%, hsl(308, 100%, 32%) 100%)
+    }
+    .featureButton {
+        border-style: none;
+        color: white;
+        background: rgba(0, 0, 0, 0.3);
+    }
+    .featuresHeading {
+        color: white;
+        background: rgba(0, 0, 0, 0.3);
+    }
+    .formSection {
+        background-image: linear-gradient(90deg, hsl(205, 100%, 22%) 0%, hsl(308, 100%, 32%) 100%);
+        color: white;
+    }
+    .linksBackground1{
+        color: white;
+       background-color: rgba(0, 0, 0, 0.3);
+    }
+    .linksBackground2{
+        background-image: linear-gradient(90deg, hsl(205, 100%, 22%) 0%, hsl(308, 100%, 32%) 100%);
+    }
+    .submitButton {
+        border-style: none;
+        background-image: linear-gradient(270deg, hsl(205, 100%, 32%) 0%, hsl(308, 100%, 42%) 100%);
+    }
+    .submitButton:active {
+        box-shadow: none;
+    }
+    .mobileWide{
+        color: white;
+    }
+    .mobileWide2{
+        color: white;
+    }
+    ::placeholder{
+        color: white;
+    }
+    input, select {
+        background: rgba(0, 0, 0, 0.3);
+    }
+}
